@@ -2,10 +2,10 @@ cask "flipio" do
   version "0.1.0-test"
   sha256 "4ece28f9a0eb75310bec2543419d7fa5af1b06beee64d7ba68141f81d98861b6"
 
-  url "https://github.com/pgo-labs/flipio/releases/download/v#{version}/Flipio-#{version}.dmg"
+  url "https://github.com/pavgol/flipio/releases/download/v#{version}/Flipio-#{version}.dmg"
   name "Flipio"
   desc "Menu bar app that converts typed text between keyboard layouts"
-  homepage "https://github.com/pgo-labs/flipio"
+  homepage "https://github.com/pavgol/flipio"
 
   livecheck do
     url :url

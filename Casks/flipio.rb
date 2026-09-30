@@ -1,6 +1,6 @@
 cask "flipio" do
-  version "1.0.5"
-  sha256 "ec88cdc3a8220b27a0b598a8952ce2fa2df18ac9a3a1f1a320f7bf3a6a75310e"
+  version "1.0.6"
+  sha256 "a5232c87c16f91195c5eaaea4da2ca767a032f927b74026b3dd8cb23ffa1f1e7"
 
   url "https://github.com/pggolub/flipio/releases/download/v#{version}/Flipio-#{version}.dmg"
   name "Flipio"

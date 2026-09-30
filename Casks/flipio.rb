@@ -12,7 +12,7 @@ cask "flipio" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Flipio.app"
 
@@ -24,9 +24,9 @@ cask "flipio" do
   uninstall quit: "com.flipio.app"
 
   zap trash: [
-    "~/Library/Preferences/com.flipio.app.plist",
     "~/Library/Caches/com.flipio.app",
     "~/Library/HTTPStorages/com.flipio.app",
+    "~/Library/Preferences/com.flipio.app.plist",
   ]
 
   caveats <<~EOS
